@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lovely & Shiyun - Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!--==========================
+	     ==========================
+		 
+          ENVELOPE OPENING SCREEN
+		  
+		 ==========================
+         ==========================-->
+		 
+  <div class="lux-invite" id="luxInvite">
+    <div class="lux-inner">
+      <p class="lux-top">YOU ARE CORDIALLY</p>
+      <p class="lux-script">Invited</p>
+
+<div class="lux-envelope" onclick="openInvite()">
+  <div class="lux-body"></div>
+  <div class="lux-flap"></div>
+
+  <img class="lux-flowers" src="assets/flower.png" alt="Flowers">
+  <div class="lux-wax">
+  </div>
+</div>
+
+      <p class="lux-open">CLICK TO OPEN…</p>
+    </div>
+  </div>
+
+
+  <header class="header" data-animate>
+    <div class="container">
+	
+	<div class="petals">
+  <!-- Petals -->
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+     <!--==========================
+	     ==========================
+		 
+              HEADER SECTION
+		  
+		 ==========================
+         ==========================-->
+		 
+	<h2>THE WEDDING OF</h2>
+     <h1 data-animate class="delay-1" id="headerName" class="headerName">
+       <span>Lovely</span>
+       <span>&</span>
+       <span>Shiyun</span>
+     </h1>
+      <p class="lead" data-animate class="delay-2"><i>"When the time is right. I, the Lord will make it happen."</i><br>Isaiah 60:22</p>
+      <div class="countdown" aria-hidden="true" data-animate class="delay-3">
+        <div class="pill"><strong id="days">0</strong><div class="small-muted">Days</div></div>
+        <div class="pill"><strong id="hours">0</strong><div class="small-muted">Hours</div></div>
+        <div class="pill"><strong id="minutes">0</strong><div class="small-muted">Minutes</div></div>
+        <div class="pill"><strong id="seconds">0</strong><div class="small-muted">Seconds</div></div>
+      </div>
+	  <br>
+	  	<small>Scroll to Invitation</small>
+        <div style="font-size: 24px; margin-top:5px;">↓</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card hero-flex" id="details" data-animate>
+      <div>
+	  
+     <!--==========================
+	     ==========================
+		 
+           WEDDING DATE CALENDAR
+		  
+		 ==========================
+         ==========================-->
+		 
+<section class="card event-details" id="event-details" data-animate>
+  <h2 class="section event-title" id="event-txt">Our Special Day</h2>
+
+  <div class="event-grid">
+    <!-- Calendar / Save the Date -->
+    <div class="calendar-container">
+      <h3 class="subheading">Save the Date</h3>
+      <div class="calendar">
+        <div class="calendar-header">
+          <span class="month">April 2026</span>
+        </div>
+        <div class="calendar-grid">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+
+          <div class="prev-month">29</div>
+          <div class="prev-month">30</div>
+		  <div class="prev-month">31</div>
+          <div>1</div>
+          <div>2</div>
+
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+
+          <div>10</div>
+          <div>11</div>
+          <div>12</div>
+          <div>13</div>
+          <div>14</div>
+          <div>15</div>
+          <div>16</div>
+
+          <div>17</div>
+          <div>18</div>
+          <div>19</div>
+          <div>20</div>
+          <div>21</div>
+          <div>22</div>
+          <div>23</div>
+
+          <div>24</div>
+          <div>25</div>
+          <div>26</div>
+          <div>27</div>
+          <div>28</div>
+          <div>29</div>
+          <div class="special-day">30</div>
+        </div>
+        <div class="calendar-footer">
+          <p>💍 The big day is <strong>April 30, 2026</strong></p>
+        </div>
+      </div>
+    </div>
+
+     <!--==========================
+	     ==========================
+		 
+               VENUE & TIME
+		  
+		 ==========================
+         ==========================-->
+		 
+    <div class="venue-container">
+      <h3 class="subheading">Venue & Time</h3>
+      <div class="venue-box">
+        <img src="assets/venue-icon.png" alt="Venue" class="venue-icon">
+        <h4 class="venue-title">Hacienda Solange Indang<br>@EMV Flower Farm</h4>
+        <p class="venue-sub">Tambo Malaki, Indang Cavite</p>
+        <a href="https://maps.app.goo.gl/vdAdWXTdrGmt1v3Y6" target="_blank" class="btn-map">
+          📍 View in Google Maps
+        </a>
+      </div>
+
+      <div class="venue-box">
+        <img src="assets/time-icon.png" alt="Time" class="time-icon">
+        <h4 class="venue-title">Ceremony Starts</h4>
+        <p class="venue-sub">April 30, 2026 | 4:00 PM</p>
+        <p class="venue-note">Reception at Hacienda Solange 🥂</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+     <!--==========================
+	     ==========================
+		 
+                RSVP SECTION
+		  
+		 ==========================
+         ==========================-->
+
+<section id="rsvpSection" class="card rsvp" style="margin-top:1.25rem; position:relative;">
+<!-- RSVP INTRO -->
+<div id="rsvpIntro" class="rsvp-intro">
+  <h3>We Reserved Seats for You!</h3>
+
+  <p>
+    We’re keeping our wedding day small and intimate,
+    celebrating with the people who mean the most to us.<br> 
+	We’re so happy you’re one of them.
+  </p>
+
+  <p class="rsvp-deadline">
+    The favor of your reply is requested.<br>
+    Kindly confirm by <strong>March 20, 2026</strong>.
+  </p>
+
+  <button class="btn yes" onclick="openRSVP()">Kindly RSVP Here</button>
+</div>
+
+<!-- RSVP MAIN -->
+<div id="rsvpContent" style="display:none;">
+  <h2 class="section">RSVP</h2>
+  <p>Search your name to RSVP.</p><br>
+
+  <div class="rsvp-search">
+    <input id="searchName" type="text" placeholder="Enter your name" autocomplete="off">
+  </div>
+
+  <!-- Live Suggestions -->
+  <div id="suggestions" class="suggestions"></div>
+
+  <!-- RSVP Result -->
+  <div id="rsvpResult" style="display:none; margin-top:1.2rem;">
+    <button class="btn" onclick="goBack()" style="margin-bottom:1rem;">← Back</button>
+
+    <h3 id="welcomeMsg"></h3>
+    <p id="seatMsg"></p>
+    <p id="tableMsg"></p>
+
+<div class="form-row">
+  <input id="email" type="text" placeholder="Enter your Email/Contact Number" style="font-size:0.90rem">
+
+  <input id="guestNames"
+         type="text"
+         placeholder="Additional guest names separated w/ comma"
+         style="display:none; font-size:0.85rem;">
+</div>
+    <small id="guestLimitMsg"></small>
+
+    <p style="margin-top:0.8rem; margin-bottom:0.8rem;">Will you be attending?</p>
+    <button style="margin-bottom: 0.8rem;" class="btn yes" onclick="submitRSVP(true)">Joyfully Accept</button>
+    <button class="btn no" onclick="submitRSVP(false)">Regretfully Decline</button>
+  </div>
+  
+  <!-- Confirmation Modal -->
+<div id="rsvpModal" class="rsvp-modal">
+  <div class="rsvp-modal-content">
+    <h3 id="rsvpTitle"></h3>
+    <p id="rsvpMessage"></p>
+    <button class="btn" onclick="closeRSVPModal()" style="margin-top:0.8rem;">Close</button>
+  </div>
+</div>
+</div>
+
+</section>
+
+<!-- Hidden Google Form Submission -->
+<form id="googleForm"
+  action="https://docs.google.com/forms/d/e/1FAIpQLScSk-UFeRp3xEdpuB3cCSOWvKoQpwi-wHwPX6pEtiMBKsU7kg/formResponse"
+  method="POST"
+  target="hidden_iframe"
+  style="display:none;">
+
+  <input name="entry.196016195">
+  <input name="entry.2129328890">
+  <input name="entry.385375152">
+  <input name="entry.74499030">
+  <input name="entry.2117016484">
+  <input name="entry.222399134">
+
+</form>
+
+<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+     <!--==========================
+	     ==========================
+		 
+            OUR MOMENTS SECTION
+		  
+		 ==========================
+         ==========================-->
+
+<section class="card" id="gallery" style="margin-top:1.25rem;">
+  <h2 class="section" id="gallery-txt">Our Moments</h2>
+  <div class="divider1"></div>
+
+<div class="gallery-marquee">
+  <div class="gallery-track">
+    <img src="assets/slide1.jpg" onclick="openZoom(this)">
+    <img src="assets/slide2.jpg" onclick="openZoom(this)">
+    <img src="assets/slide3.jpg" onclick="openZoom(this)">
+    <img src="assets/slide4.jpg" onclick="openZoom(this)">
+    <img src="assets/slide5.jpg" onclick="openZoom(this)">
+    <img src="assets/slide6.jpg" onclick="openZoom(this)">
+    <img src="assets/slide7.jpg" onclick="openZoom(this)">
+    <img src="assets/slide8.jpg" onclick="openZoom(this)">
+    <img src="assets/slide9.jpg" onclick="openZoom(this)">
+    <img src="assets/slide10.jpg" onclick="openZoom(this)">
+    <img src="assets/slide11.jpg" onclick="openZoom(this)">
+
+    <!-- DUPLICATE TRACK FOR SMOOTH LOOP -->
+    <img src="assets/slide1.jpg" onclick="openZoom(this)">
+    <img src="assets/slide2.jpg" onclick="openZoom(this)">
+    <img src="assets/slide3.jpg" onclick="openZoom(this)">
+    <img src="assets/slide4.jpg" onclick="openZoom(this)">
+    <img src="assets/slide5.jpg" onclick="openZoom(this)">
+    <img src="assets/slide6.jpg" onclick="openZoom(this)">
+    <img src="assets/slide7.jpg" onclick="openZoom(this)">
+    <img src="assets/slide8.jpg" onclick="openZoom(this)">
+    <img src="assets/slide9.jpg" onclick="openZoom(this)">
+    <img src="assets/slide10.jpg" onclick="openZoom(this)">
+    <img src="assets/slide11.jpg" onclick="openZoom(this)">
+  </div>
+</div>
+
+</section>
+
+     <!--==========================
+	     ==========================
+		 
+             OUR STORY SECTION
+		  
+		 ==========================
+         ==========================-->
+
+<section class="card story-theme" style="margin-top:1.25rem" data-animate>
+  <h2 class="section stories-title" id="story-txt">Our Story</h2>
+  <div class="divider"></div>
+
+  <div class="story-theme-grid">
+
+    <div class="story-theme-card" onclick="openStoryModal('assets/story1.jpg', 'Our First Date')">
+      <div class="story-img">
+        <img src="assets/story1.jpg" alt="Our First Date" onclick="openZoom(this)">
+      </div>
+      <div class="story-content">
+        <h3>Our First Date</h3>
+        <p>Nervous smiles and quiet laughter. It wasn’t perfect, but it felt right. That evening became the start of something beautiful.</p>
+      </div>
+    </div>
+	
+	<div class="story-theme-card reverse" onclick="openStoryModal('assets/story2.jpg', 'Our Journey')">
+      <div class="story-img">
+        <img src="assets/story2.jpg" alt="Our Journey" onclick="openZoom(this)">
+      </div>
+      <div class="story-content">
+        <h3>Our Journey</h3>
+        <p>Through laughter and challenges, we grew stronger. Every experience deepened our connection and shaped who we are.</p>
+      </div>
+    </div>
+
+<div class="story-theme-card" onclick="openStoryModal('assets/story3.jpg', 'Our Achievements')">
+  
+  <div class="story-img">
+    <img src="assets/story3.jpg" alt="Our Achievements" onclick="openZoom(this)">
+  </div>
+
+  <div class="story-content">
+    <h3>Our Achievements</h3>
+    <p>From personal milestones to shared victories, each accomplishment tells the story of our perseverance, faith, and teamwork. 
+      Together, we’ve celebrated meaningful moments from purchasing our first vehicle to proudly owning our first home, 
+      each one a testament to the dreams we set, the sacrifices we made, and the future we continue to build side by side.</p>
+  </div>
+</div>
+	
+	<div class="story-theme-card reverse" onclick="openStoryModal('assets/story4.jpg', 'Family Support')">
+  <div class="story-img">
+    <img src="assets/story4.jpg" alt="Family Support" onclick="openZoom(this)">
+  </div>
+  <div class="story-content">
+    <h3>Family Support</h3>
+    <p>
+      Love is not only between two people, it is surrounded and strengthened by family.  
+      Their guidance and support shaped who we are and the life we are building.
+    </p>
+  </div>
+</div>
+
+<div class="story-theme-card" onclick="openStoryModal('assets/story5.jpg', 'Blending Families')">
+  <div class="story-img">
+    <img src="assets/story5.jpg" alt="Blending Families" onclick="openZoom(this)">
+  </div>
+  <div class="story-content">
+    <h3>Blending Families</h3>
+    <p>
+      Two families becoming one, sharing love, traditions, and memories.  
+      Our journey is bigger than us, filled with those who support and celebrate this union.
+    </p>
+  </div>
+</div>
+
+    <div class="story-theme-card reverse" onclick="openStoryModal('assets/story6.jpg', 'Looking Ahead')">
+      <div class="story-img">
+        <img src="assets/story6.jpg" alt="Looking Ahead" onclick="openZoom(this)">
+      </div>
+      <div class="story-content">
+        <h3>Looking Ahead</h3>
+        <p>We dream of tomorrow, filled with love, memories, and moments yet to come. This is just the beginning.</p>
+      </div>
+    </div>
+
+<div class="story-theme-card" onclick="openStoryModal('assets/story7.jpg', 'A New Beginning')">
+  <div class="story-img">
+    <img src="assets/story7.jpg" alt="A New Beginning" onclick="openZoom(this)">
+  </div>
+  <div class="story-content">
+    <h3>A New Beginning</h3>
+    <p>
+      A new chapter unfolds. 
+      With family, faith, and love beside us, we step into tomorrow filled with hope and joy, 
+	  grateful for the journey that shaped us, proud of the milestones we’ve reached, and excited 
+	  for the dreams we will chase, the home we will build, and the life we will continue creating together, hand in hand.
+    </p>
+  </div>
+</div>
+  </div>
+</section>
+
+     <!--==========================
+	     ==========================
+		 
+           WEDDING DAY TIMELINE
+		  
+		 ==========================
+         ==========================-->
+
+<section class="card timeline-section horizontal" style="margin-top:1.25rem">
+  <h2 class="timeline-title">Wedding Day Timeline</h2>
+  <p class="timeline-intro">Our Happily Ever After Schedule</p>
+
+  <div class="timeline-horizontal">
+
+    <div class="event">
+      <div class="dot"></div>
+      <div class="line"></div>
+      <img class="icon" src="assets/ring.png" alt="Ring">
+      <div class="time">4:00 PM</div>
+      <div class="title">Ceremony</div>
+    </div>
+
+    <div class="event">
+      <div class="dot"></div>
+      <div class="line"></div>
+      <img class="icon" src="assets/wine.png" alt="Wine">
+      <div class="time">5:00 PM</div>
+      <div class="title">Cocktail Hour</div>
+    </div>
+
+    <div class="event">
+      <div class="dot"></div>
+      <div class="line"></div>
+      <img class="icon" src="assets/dinner.png" alt="Dinner">
+      <div class="time">6:00 PM</div>
+      <div class="title">Dinner Reception</div>
+    </div>
+
+    <div class="event">
+      <div class="dot"></div>
+      <div class="line"></div>
+      <img class="music-icon" src="assets/music.png" alt="Music" style="width:100px;">
+      <div class="time">7:30 PM</div>
+      <div class="title">Time to Party</div>
+    </div>
+
+  </div>
+</section>
+
+     <!--==========================
+	     ==========================
+		 
+         DRESS CODE & THEME SECTION
+		  
+		 ==========================
+         ==========================-->
+		 
+    <section class="card" id="dress-code" style="margin-top:1.25rem" data-animate>
+      <h2 class="section">Dress Code & Theme</h2>
+      <p>We’d love for our guests to join us in elegant colors that complement our special day:</p>
+      <ul style="margin-top:0.5rem; margin-bottom:0.5rem; line-height:1.6;">
+        <li><strong>Ladies:</strong> Wear beautiful shades of 
+		<span style="color:#800020; font-weight:600;">Burgundy</span>,
+		<span style="color:#7A2E3E; font-weight:600;">Dusty Rosewood</span>,
+		<span style="color:#5A1F26; font-weight:600;">Dark Burgundy</span>,<br>
+		<span style="color:#8E1F2D; font-weight:600;">Rich Burgundy Red</span>.</li>
+        <li><strong>Gentlemen:</strong> Wear classic 
+		<span style="color:#000000; font-weight:600;">Black</span>,
+		<span style="color:#000435; font-weight:600;">Dark Navy Blue</span>, or
+		<span style="color:#000E34; font-weight:600;">Midnight Blue</span>
+		attire paired with a <span style="color:#800020; font-weight:600;">Burgundy</span> necktie.</li>
+      </ul>
+      <div class="palette">
+        <div class="swatch" style="background:#800020;" title="Ladies - Burgundy"></div>
+		<div class="swatch" style="background:#7A2E3E;" title="Ladies - Dusty Rosewood"></div>	
+		<div class="swatch" style="background:#5A1F26;" title="Ladies - Dark Burgundy"></div>
+		<div class="swatch" style="background:#8E1F2D;" title="Ladies - Rich Burgundy Red"></div>
+        <div class="swatch" style="background:#000000;" title="Gentlemen - Black"></div>
+		<div class="swatch" style="background:#000435;" title="Gentlemen - Dark Navy Blue"></div>
+		<div class="swatch" style="background:#000E34;" title="Gentlemen - Midnight Blue"></div>
+      </div>
+    </section>
+
+     <!--==========================
+	     ==========================
+	    							 
+            ENTOURAGE SECTION		 
+	     						     
+	    ===========================
+        ===========================-->
+		 
+    <section class="card" id="entourage" style="margin-top:1.25rem" data-animate>
+      <h3 class="section" style="color:var(--burgundy); text-align:center; word-spacing: 10px; font-family: 'Great Vibes', cursive; font-size:3rem;" id="entourage-txt">The Entourage</h3>
+      <div class="divider"></div>
+	  
+	 <!--==========================
+	     ==========================
+	    							 
+           GROOM & BRIDE PARENTS		 
+	     						     
+	    ===========================
+        ===========================-->
+		
+    <div class="grid-two-col center-grid">
+        <div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Groom's Parents</u></h4>
+          <p style="text-align:center;">Mrs. Rosemarie Timbang<br>Mr. Rodolfo Timbang</p>
+        </div>
+        <div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Bride's Parents</u></h4>
+          <p style="text-align:center;">Mrs. Elma Comia Arnoza<br>Mr. Noel Ali-ali</p>
+        </div>	
+    </div>
+	
+	 <!--==========================
+	     ==========================
+	    							 
+            PRINCIPALS SECTION		 
+	     						     
+	    ===========================
+        ===========================-->
+		
+    <h3 style="margin-top:2rem; color:var(--burgundy); font-family: 'Great Vibes', cursive; word-spacing: 10px; font-size:2.5rem; text-align:center;">Principal Sponsors</h3>
+      <div class="divider"></div>
+      <div class="grid-two-col center-grid" id="col-title">
+        <div>
+		<h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Ninong</u></h4>
+          <p style="text-align:center;">Mr. Graciano Jacinto</p>
+		  <p style="text-align:center;">Mr. Ernie Comia</p>
+		  <p style="text-align:center;">Mr. Donny Lopez</p>
+		  <p style="text-align:center;">Mr. Joel Fortus</p>
+		  <p style="text-align:center;">Mr. Charlie Mesina</p>
+		  <p style="text-align:center;">Mr. Domingo Miña</p>
+		  <p style="text-align:center;">Mr. Fredo Bulaklak</p>
+		  <p style="text-align:center;">Mr. Richard Lapig</p>
+		  <p style="text-align:center;">Mr. Doodz Arriesgado</p>
+		  <p style="text-align:center;">Mr. Manny Andal</p>
+		  <p style="text-align:center;">Mr. Lope Masilungan</p>
+		  <p style="text-align:center;">Mr. Feliciano Nipay</p>
+        </div>
+		<div>
+		<h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Ninang</u></h4>
+          <p style="text-align:center;">Mrs. Herminia Jacinto</p>
+		  <p style="text-align:center;">Mrs. Marilou Comia</p>
+		  <p style="text-align:center;">Mrs. Raquel Lopez</p>
+		  <p style="text-align:center;">Mrs. Jing Fortus</p>
+		  <p style="text-align:center;">Mrs. Malou Mesina</p>
+		  <p style="text-align:center;">Mrs. Elpidia Miña</p>
+		  <p style="text-align:center;">Mrs. Sally Bulaklak</p>
+		  <p style="text-align:center;">Mrs. Julietta Lapig</p>
+		  <p style="text-align:center;">Mrs. Delia Fortus</p>
+		  <p style="text-align:center;">Mrs. Mercy Javin</p>
+		  <p style="text-align:center;">Mrs. Yolanda Masilungan</p>
+		  <p style="text-align:center;">Mrs. Emma Nipay</p><br><br>
+		</div>
+        </div>
+	  
+	<!-- BEST MAN & MATRON OF HONOR -->
+    <div class="grid-two-col center-grid" id="col-title">
+		<div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Best Man</u></h4>
+          <p style="text-align:center;">Mr. Hiro Hashida</p>
+        </div>
+        <div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Matron of Honor</u></h4>
+          <p style="text-align:center;">Mrs. Ella Lascano</p>
+        </div>
+    </div>
+	
+	<h3 style="margin-top:2rem; color:var(--burgundy); font-family: 'Great Vibes', cursive; font-size:2.5rem; text-align:center;">Secondary Sponsors</h3>
+	<div class="divider"></div>
+	
+    <!-- GROOMSMEN & BRIDESMAID -->
+    <div class="grid-two-col center-grid" id="col-title">
+		<div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Groomsmen</u></h4>
+          <p style="text-align:center;">Mr. Jherone Salazar</p>
+		  <p style="text-align:center;">Mr. Dexter Garcia</p>
+		  <p style="text-align:center;">Mr. Josiah Cuevas</p>
+		  <p style="text-align:center;">Mr. Jhaypee Bithao</p>
+		  <p style="text-align:center;">Mr. Denver Castillon</p>
+		  <p style="text-align:center;">Mr. Domenick Dequiña</p>
+		  <p style="text-align:center;">Mr. Shyrdon Lopez</p>
+		  <p style="text-align:center;">Mr. Jolo Dahilog</p>
+        </div>
+		<div>
+		  <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Bridesmaids</u></h4>
+          <p style="text-align:center;">Ms. Tzadee Kim Arnoza</p>
+		  <p style="text-align:center;">Ms. Mae-Ann Manguiat</p>
+		  <p style="text-align:center;">Ms. Jean Marie Mendoza</p>
+		  <p style="text-align:center;">Ms. Katherine Magbuhos</p>
+		  <p style="text-align:center;">Ms. Vivora Aycardo</p>
+		  <p style="text-align:center;">Ms. Rosenda Timbang</p>
+		  <p style="text-align:center;">Ms. Mikkaella Ali-ali</p>
+		  <p style="text-align:center;">Ms. Eri Maruta</p><br><br>
+		</div>
+    </div>
+	
+	<!-- CANDLE/VEIL/CORD SPONSORS -->
+    <div class="grid-two-col center-grid" id="col-title">
+		<div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Candle Sponsors</u></h4>
+          <p style="text-align:center;">Mr. Leovino Cuevas</p>
+		  <p style="text-align:center;">Mrs. Iluminada Cuevas</p>
+        </div>
+		<div>
+		  <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Veil Sponsors</u></h4>
+          <p style="text-align:center;">Mr. Marwell Ramos</p>
+		  <p style="text-align:center;">Ms. Rosemil Joy Timbang</p><br>
+		</div>
+    </div>
+	
+	<div class="grid-two-col center-grid">
+		<div>
+		  <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Cord Sponsors</u></h4>
+          <p style="text-align:center;">Mr. Kenneth Anog</p>
+		  <p style="text-align:center;">Ms. Generous Matala</p><br>
+		</div>
+	</div>
+	
+	<!-- BEARERS -->
+    <div class="grid-two-col center-grid" id="col-title">
+		<div>
+		  <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Bible Bearer</u></h4>
+          <p style="text-align:center;">Matteo Comia</p>
+		</div>
+		<div>
+		  <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Coin Bearer</u></h4>
+          <p style="text-align:center;">Brylle Araña</p><br>
+		</div>
+    </div>
+	
+	<div class="grid-two-col center-grid">
+		<div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Ring Bearer</u></h4>
+          <p style="text-align:center;">Faustino Elijah Lascano</p><br>
+        </div>
+	</div>
+
+	<!-- FLOWER GIRLS -->
+    <div class="grid-two-col center-grid">
+		<div>
+          <h4 style="color:var(--burgundy); font-family:'Playfair Display',serif; text-align:center;"><u>Flower Girls</u></h4>
+		<div id="col-title">
+          <p style="text-align:center;">Keithleen Lapig</p>
+		  <p style="text-align:center;">Nathalia Comia</p>
+		</div>
+		<div id="col-title">
+		  <p style="text-align:center;">Chloe Abellera</p>
+		  <p style="text-align:center;">Shaine Pallera</p><br>
+		</div>
+      </div>
+    </div>
+	
+	
+  </div>
+ </section>
+
+     <!--==========================
+	     ==========================
+	    							 
+             REMINDER SECTION		 
+	     						     
+	    ===========================
+        ===========================-->
+		
+<section class="card reminder" id="reminder" style="margin-top:1.25rem" data-animate>
+  <div class="reminder-inner">
+    <h2 class="section reminder-title">A Gentle Reminder</h2>
+    <div class="divider"></div>
+
+    <p class="reminder-intro">
+      As we celebrate this special day, please take note of a few heartfelt reminders to make our wedding truly memorable:
+    </p>
+
+  <div class="reminder-grid">
+      <div class="reminder-box">
+        <h3>Arrive Early</h3>
+        <p class="subtext">
+          The ceremony begins promptly at <strong>4:00 PM</strong>. We kindly ask everyone to arrive early and be comfortably seated before the bridal march.
+        </p>
+      </div>
+
+      <div class="reminder-box">
+        <h3>Your Presence Is a Gift</h3>
+        <p class="subtext">
+          Having you share in our special day fills our hearts with joy. While your presence is already a gift, if you wish to contribute something more, a monetary gift
+		  would be a meaningful contribution to the life we're creating.
+        </p>
+      </div>
+
+      <div class="reminder-box">
+        <h3>Celebrate With Joy</h3>
+        <p class="subtext">
+          Let’s fill the day with laughter, music, and love creating memories we’ll treasure forever. 💕
+        </p>
+      </div>
+	  <div class="reminder-box">
+        <h3>Share the Love</h3>
+        <p class="subtext">
+         Feel free to tag us and share your favorite moments from the reception. We can’t wait to see the day through your eyes!
+        </p>
+      </div>
+	  <div class="reminder-box">
+        <h3>Stay for the Celebration</h3>
+        <p class="subtext">
+         We’ve planned a joyful evening of dinner, dancing, and fun. We hope you’ll stay and celebrate with us until the very end.
+        </p>
+      </div>
+	 <div class="reminder-box">
+        <h3>Travel Safely</h3>
+        <p class="subtext">
+         Please plan your trip ahead and allow extra time for traffic. We can’t wait to celebrate with you!
+        </p>
+     </div>
+  </div>
+
+    <p class="reminder-footer">
+      Thank you for sharing this beautiful chapter of our lives with us. Your presence makes our day complete.
+    </p>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+  </main>
+  
+     <!--==========================
+	     ==========================
+	    							 
+               AUDIO SECTION		 
+	     						     
+	    ===========================
+        ===========================-->
+  
+  <audio id="bg-music" autoplay muted loop>
+  <source src="assets/wedding-music.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio>
+  
+     <!--==========================
+	     ==========================
+	    							 
+              FOOTER SECTION		 
+	     						     
+	    ===========================
+        ===========================-->
+
+  <footer class="footer" data-animate>
+    <div class="container">© 2026 Shiyun & Lovely - Two hearts united in love, beginning a lifetime together.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  
+     <!--==========================
+	     ==========================
+	    							 
+            ZOOM MODAL SECTION		 
+	     						     
+	    ===========================
+        ===========================-->
+  
+<div id="zoom-modal" onclick="closeZoom(event)">
+  <button id="zoom-close">×</button>
+  <img id="zoom-modal-img" src="" alt="Zoom Image">
+</div>
+
+</div>
+</body>
+</html>
